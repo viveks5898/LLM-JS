@@ -6,6 +6,7 @@ const model = new ChatGoogleGenerativeAI({
   model: "gemini-3.6-flash",
 
 
+  
 });
 
  const  newResponse  = await model.streamEvents("Hey write a story about AI")
